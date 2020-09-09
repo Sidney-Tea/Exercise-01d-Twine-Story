@@ -1,164 +1,343 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "Mist slowly drifts around you as stand amongst tall ash colored trees. Darkness eminates from a gnarled tree to the north. To the south lies more forest, perhaps walking down it will lead to a way out. The path to the south is curvy and unclear.\n\n[[Go North-> Strange tree]]\n[[Go South-> Deeper Forest]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": " Strange tree",
+          "pid": "2"
+        },
+        {
+          "name": "Go South",
+          "link": " Deeper Forest",
+          "pid": "3"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Twilight Forest",
+      "pid": "1",
+      "position": {
+        "x": "584",
+        "y": "315"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "A large tree looms over you, as you grow closer a red aura flows ominously from it. A carved out hole lies in the middle of the tree, it looks like something is missing. \nThe path ahead seems to warp and wind as the aura flows around you. Your steps grow cautious. As you look behind you the path you had been walking has disappeared. A trail branches out to the left and right.\n[[Left trail->Abandoned home (Outside)]]\n[[Right trail-> Cave(Entrance)]]",
+      "links": [
+        {
+          "name": "Left trail",
+          "link": "Abandoned home (Outside)",
+          "pid": "4"
+        },
+        {
+          "name": "Right trail",
+          "link": " Cave(Entrance)",
+          "pid": "7"
+        }
+      ],
+      "name": " Strange tree",
+      "pid": "2",
+      "position": {
+        "x": "584",
+        "y": "465"
+      }
+    },
+    {
+      "text": "With unsteady steps you proceed deeper into the trees. As you move through the forest you never seem to get closer. Your footsteps lose meaning as you travel onward. Eventually you reach a fork. From behind you hear somehing following, you feel the need to run.\n[[Left->Lost in the Dark]]\n[[Right-> Cave(Entrance)]]",
+      "links": [
+        {
+          "name": "Left",
+          "link": "Lost in the Dark",
+          "pid": "9"
+        },
+        {
+          "name": "Right",
+          "link": " Cave(Entrance)",
+          "pid": "7"
+        }
+      ],
+      "name": " Deeper Forest",
+      "pid": "3",
+      "position": {
+        "x": "824",
+        "y": "465"
+      }
+    },
+    {
+      "text": "It is unclear how you arrived here, as you find yourself in a cleared out section of the forest. A large abanonded house almost materalizes out of thin air ahead of you, the porch is in disrepair and the windows are in shambles. The door sits ajar, eerily inviting you to venture inward. Do you?\n[[Go in home-> Abandoned home]] \n[[Try to double back-> Strange tree]] ",
+      "links": [
+        {
+          "name": "Go in home",
+          "link": " Abandoned home",
+          "pid": "5"
+        },
+        {
+          "name": "Try to double back",
+          "link": " Strange tree",
+          "pid": "2"
+        }
+      ],
+      "name": "Abandoned home (Outside)",
+      "pid": "4",
+      "position": {
+        "x": "584",
+        "y": "615"
+      }
+    },
+    {
+      "text": "The door closes slowly behind you. As you wander into the home an air of familiarty falls over you. This home does not feel foreign to you. From deeper in you hear the creaking of the steps and ominous moaning. The living room houses a small table. On it is a book, \"The Twilight Forest\" A strange feeling looms in the air, compelling you to read this book. Do you read it?\n[[Read the book-> Book]]\n[[Don't read-> The Matron(End)]]",
+      "links": [
+        {
+          "name": "Read the book",
+          "link": " Book",
+          "pid": "6"
+        },
+        {
+          "name": "Don't read",
+          "link": " The Matron(End)",
+          "pid": "11"
+        }
+      ],
+      "name": " Abandoned home",
+      "pid": "5",
+      "position": {
+        "x": "584",
+        "y": "765"
+      }
+    },
+    {
+      "text": "The book describes a misty forest. As you read, your surroundings begin to fade around you. This feels familar. You are no longer holding the book. You are no longer standing in a house. You are unsure of who you are.\n[[Materialize->Twilight Forest(Familar)]]",
+      "links": [
+        {
+          "name": "Materialize",
+          "link": "Twilight Forest(Familar)",
+          "pid": "8"
+        }
+      ],
+      "name": " Book",
+      "pid": "6",
+      "position": {
+        "x": "584",
+        "y": "915"
+      }
+    },
+    {
+      "text": "You arrive at the mouth of a large cave. The mist shrinks back from the entrance, almost fearful of what might lay ahead. You feel a warm dampness coming from the mouth, in the darkness it almost seems to breathe. Do you enter?\n[[Enter-> Cave]]\n[[Run->Lost in the Dark]] ",
+      "links": [
+        {
+          "name": "Enter",
+          "link": " Cave",
+          "pid": "12"
+        },
+        {
+          "name": "Run",
+          "link": "Lost in the Dark",
+          "pid": "9"
+        }
+      ],
+      "name": " Cave(Entrance)",
+      "pid": "7",
+      "position": {
+        "x": "704",
+        "y": "615"
+      }
+    },
+    {
+      "text": "A cold sweat breaks out across your body. You look down, for a second you see four hands where two should be, your body feels strange.\nYour thoughts echo in your head, as if another occupies your mind. Your footsteps feel heavier.\nMist slowly drifts around you as stand amongst tall ash colored trees. Darkness eminates from a gnarled tree to the north. To the south lies more forest, perhaps walking down it will lead to a way out. The path to the south is curvy and unclear.\n[[Go North-> Strange tree]]\n[[Go South-> Deeper Forest]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": " Strange tree",
+          "pid": "2"
+        },
+        {
+          "name": "Go South",
+          "link": " Deeper Forest",
+          "pid": "3"
+        }
+      ],
+      "name": "Twilight Forest(Familar)",
+      "pid": "8",
+      "position": {
+        "x": "584",
+        "y": "1065"
+      }
+    },
+    {
+      "text": "\tAs you run you have lost the path before you. You are lost. Your footsteps are soon accompanied by another, then another, more and more seem to gather around you. The trees look strange now, almost human in appearence at times. Your eyes feel heavy.\n\tThe forest begins to feel warmer, safer to you, like you belong. \n\tIn the dark you see something strange but familar, fear grips you. Will you stay in the warmth of the dark or go toward the strange figure.\n[[Go towards the figure->Twilight Forest(Familar)]] \n[[Stay in the dark-> Claimed(End)]]",
+      "links": [
+        {
+          "name": "Go towards the figure",
+          "link": "Twilight Forest(Familar)",
+          "pid": "8"
+        },
+        {
+          "name": "Stay in the dark",
+          "link": " Claimed(End)",
+          "pid": "10"
+        }
+      ],
+      "name": "Lost in the Dark",
+      "pid": "9",
+      "position": {
+        "x": "824",
+        "y": "615"
+      }
+    },
+    {
+      "text": "Fear grips you as the dark of the forest flows toward you, slowly your limbs grow rigid and begin to elongate. Pain seeps from every crack of your bones as they slowly resemble the ash of the trees. A macabre visage decorates your petrified face as your become one with forest.",
+      "name": " Claimed(End)",
+      "pid": "10",
+      "position": {
+        "x": "824",
+        "y": "765"
+      }
+    },
+    {
+      "text": "As you stare at the book, you feel a cold shift in the air. The creaking from before has grown louder, closer. Instinctively you run toward the door but the house has warped, the hallway goes on endlessly. Moaning echoes behind you. Looking back you see vaguely feminine figure. The haggard creature moves wrongly, its limbs shamble toward you at inhuman speeds. The cracking of its bones ring out as its appendgages contort in a mishapen dance of movement. Your last vision are a maw of crooked teeth shimmering in the darkness.",
+      "name": " The Matron(End)",
+      "pid": "11",
+      "position": {
+        "x": "704",
+        "y": "915"
+      }
+    },
+    {
+      "text": "It is pitch black in the cave. At times it is noiseless save for a soft dripping. However, as you wander forward a deep roar comes from the path ahead. Terror floods your senses. The roar was not far off. You feel around for more paths but your lack of sight leaves where each path will take you unclear. \n[[Front Path->Idol]]\n[[Side Path->Monster(End)]]\n[[Back Path->Abandoned home (Outside)]] ",
+      "links": [
+        {
+          "name": "Front Path",
+          "link": "Idol",
+          "pid": "13"
+        },
+        {
+          "name": "Side Path",
+          "link": "Monster(End)",
+          "pid": "14"
+        },
+        {
+          "name": "Back Path",
+          "link": "Abandoned home (Outside)",
+          "pid": "4"
+        }
+      ],
+      "name": " Cave",
+      "pid": "12",
+      "position": {
+        "x": "704",
+        "y": "765"
+      }
+    },
+    {
+      "text": "In the darkness, a light peaks out from around the corner. Finally a path is clear to you. As you enter the room a small replica of the moon sits atop a pedestal. Do you wish to take it?\n[[Take it quickly-> Idol obtained]]\n[[Take it cautiously->Falling]]\n[[Move on-> Cave(Entrance?)]]",
+      "links": [
+        {
+          "name": "Take it quickly",
+          "link": " Idol obtained",
+          "pid": "15"
+        },
+        {
+          "name": "Take it cautiously",
+          "link": "Falling",
+          "pid": "16"
+        },
+        {
+          "name": "Move on",
+          "link": " Cave(Entrance?)",
+          "pid": "17"
+        }
+      ],
+      "name": "Idol",
+      "pid": "13",
+      "position": {
+        "x": "824",
+        "y": "915"
+      }
+    },
+    {
+      "text": "One...then two...then three and finally hundreds of eyes glow in the inky black. At first you fear you are surrounded, but the eyes move as one, their focus on you. You find you can no longer move, your legs will not listen. It speaks a strange language, almost waiting for a response before latching onto your body within its unseen limbs. The glowing of its eyes ends. It is dark. A crack rings out but no one is around to hear it.",
+      "name": "Monster(End)",
+      "pid": "14",
+      "position": {
+        "x": "944",
+        "y": "915"
+      }
+    },
+    {
+      "text": "As you swiftly grab the idol of the moon, you narrowly dodge trapdoor. You feel renewed. The darkness around you ebbs away. The path forward seems clear. \n[[Leave cave->Strange Tree(Familar)]]",
+      "links": [
+        {
+          "name": "Leave cave",
+          "link": "Strange Tree(Familar)",
+          "pid": "18"
+        }
+      ],
+      "name": " Idol obtained",
+      "pid": "15",
+      "position": {
+        "x": "704",
+        "y": "1065"
+      }
+    },
+    {
+      "text": "In your caution you were unable to avoid a pitfall taking you elsewhere into the cave. \n[[Fall->Monster(End)]]",
+      "links": [
+        {
+          "name": "Fall",
+          "link": "Monster(End)",
+          "pid": "14"
+        }
+      ],
+      "name": "Falling",
+      "pid": "16",
+      "position": {
+        "x": "824",
+        "y": "1065"
+      }
+    },
+    {
+      "text": "You wander for a long time. Blindly maneuvering twists and turns. You see a light open up before you, however it is somehow the entrance of the cave. You could have sworn you were walking in the opposite direction of the entrance.\nYou arrive at the mouth of a large cave. The mist shrinks back from the entrance, almost fearful of what might lay ahead. You feel a warm dampness coming from the mouth, in the darkness it almost seems to breathe. Do you enter?\n[[Enter-> Cave]]\n[[Run->Lost in the Dark]] ",
+      "links": [
+        {
+          "name": "Enter",
+          "link": " Cave",
+          "pid": "12"
+        },
+        {
+          "name": "Run",
+          "link": "Lost in the Dark",
+          "pid": "9"
+        }
+      ],
+      "name": " Cave(Entrance?)",
+      "pid": "17",
+      "position": {
+        "x": "974",
+        "y": "1065"
+      }
+    },
+    {
+      "text": "The caves paths no longer vex you, the idol steers your steps to the exit.\nOutside of the cave the mist bends away from you, the idol grows warmer as you walk forward, guiding you toward the gnarled tree. The carved spot invites you to place the idol in. You feel compelled to do so. As you do a flash of light appears before you. As your eyes adjust, the forest is no longer darkened. Before you the trees no longer appear ashy, and you can see the sun beginning to crest over them. You feel you have made it through.",
+      "name": "Strange Tree(Familar)",
+      "pid": "18",
+      "position": {
+        "x": "704",
+        "y": "1215"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Untitled Passage",
+      "pid": "19",
+      "position": {
+        "x": "584",
+        "y": "645"
+      }
+    }
+  ],
+  "name": "Twilight Forest",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "FE66D3C4-7F80-4A03-BA85-1F19F17718AB"
+}
